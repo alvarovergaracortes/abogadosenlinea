@@ -1,0 +1,14 @@
+# Archivos de sistema
+.DS_Store
+
+# Carpetas
+/documentos/
+
+# Logs
+*.log
+
+# IDEs
+/.idea/
+/*.iml
+/.vscode/
+/out/
