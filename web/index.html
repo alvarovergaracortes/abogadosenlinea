@@ -19,9 +19,12 @@
   <div class="container">
     <img src="img/martillo.png" alt="Logo de Buffet Abogados, un martillo de justicia" style="height:65px; width:80px; margin-right: 7px;" />
 
-
+      <h3 style="font-size: 2.5rem; color: white;font-weight: bold">
+        Buffet de Abogados
+      </h3>
     <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon">
+      </span>
     </button>
     <div class="collapse navbar-collapse" id="menu">
       <ul class="navbar-nav ms-auto">
@@ -62,12 +65,55 @@
 </section>
 
 <!-- Nuestro Equipo -->
-<section id="equipo" class="py-5">
+<section id="equipo" class="py-5 bg-light">
   <div class="container">
     <h2 class="section-title text-center">Nuestro Equipo</h2>
-    <div class="row text-center">
+    <p class="text-center mb-5">Conoce a los profesionales que te brindarán la mejor asesoría legal.</p>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="img/abogado1.jpg" class="card-img-top" alt="Foto de [Nombre del Abogado 1]">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">[Nombre del Abogado 1]</h5>
+            <p class="card-text text-muted">Socio Director</p>
+            <p class="card-text small">[Breve descripción o especialidad, por ejemplo: "Especialista en derecho corporativo y fusiones y adquisiciones."]</p>
+            <a href="https://www.linkedin.com/" target="_blank" class="text-secondary me-2">
+              <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="img/abogado2.jpg" class="card-img-top" alt="Foto de [Nombre del Abogado 2]">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">[Nombre del Abogado 2]</h5>
+            <p class="card-text text-muted">Abogada Senior</p>
+            <p class="card-text small">[Breve descripción o especialidad, por ejemplo: "Experta en derecho de familia y litigios de custodia."]</p>
+            <a href="https://www.linkedin.com/" target="_blank" class="text-secondary me-2">
+              <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="img/abogado3.jpg" class="card-img-top" alt="Foto de [Nombre del Abogado 3]">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">[Nombre del Abogado 3]</h5>
+            <p class="card-text text-muted">Abogado Asociado</p>
+            <p class="card-text small">[Breve descripción o especialidad, por ejemplo: "Asesor en derecho civil y contratos."]</p>
+            <a href="https://www.linkedin.com/" target="_blank" class="text-secondary me-2">
+              <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
     </div>
-    <p class="mt-4 text-center">Nuestro equipo esta organizado por ...</p>
   </div>
 </section>
 
@@ -181,6 +227,72 @@
   </div>
 </section>
 -->
+
+<!-- TESTIMONIOS -->
+<section id="testimonios" class="py-5">
+  <div class="container">
+    <h2 class="section-title text-center">Testimonios de Clientes</h2>
+    <p class="text-center mb-5">Lo que nuestros clientes dicen sobre nosotros.</p>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <div class="carousel-inner text-center">
+
+        <div class="carousel-item active">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <i class="fas fa-quote-left fa-2x mb-3 text-muted"></i>
+              <p class="lead font-italic">
+                "El equipo de Buffet Abogados me brindó una asesoría legal excepcional. Fueron muy profesionales, claros y lograron resolver mi caso de manera rápida y satisfactoria. Los recomiendo al 100%."
+              </p>
+              <footer class="blockquote-footer mt-3">Juan Pérez</footer>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <i class="fas fa-quote-left fa-2x mb-3 text-muted"></i>
+              <p class="lead font-italic">
+                "Gracias a su expertise en derecho comercial, pudimos constituir nuestra empresa sin ningún problema y recibir la orientación necesaria para los próximos pasos. Un servicio de primera calidad."
+              </p>
+              <footer class="blockquote-footer mt-3">María González, <cite title="Source Title">Gerente General</cite></footer>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <i class="fas fa-quote-left fa-2x mb-3 text-muted"></i>
+              <p class="lead font-italic">
+                "Su gestión para la posesión efectiva fue impecable. Me mantuvieron informada en cada etapa del proceso y el resultado fue más rápido de lo que esperaba. Excelente atención."
+              </p>
+              <footer class="blockquote-footer mt-3">Ana Torres</footer>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+  </div>
+</section>
 
 
 <!-- Contacto -->
